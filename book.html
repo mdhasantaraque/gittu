@@ -4,10 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Book</title>
     
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="book.html">Book</a></li>  
+                <li><a href="index.html">Index</a></li>
+                <li><a href="pen.html">Pen</a>
+                    <ul class="dropdown">
+                        <li><a href="">Bangla</a></li>
+                        <li><a href="">English</a></li>
+                        <li><a href="">Math</a></li>
+                        <li><a href="">Science</a></li>
+                    </ul></li>
+                <li><a href="pencil.html">Pencil</a></li>
+            </ul>
+        </nav>
+    </header>
     
+    <script>
+    // this is comment..
+    document.write("Name: Md. Hasan Taraque </br>")
+    document.write("Father's name: Abul Hasan Md. Lokman</br>")
+    document.write("Address: Kutub Bari, North Kattali, Akbar shah, Chottogram.</br>")
+
+        var nm= "Kawser fatema"
+        document.write(nm)
+        document.write("</br>")
+        document.write(nm)
+       
+        var num="20"; 
+        num=parseInt(num);
+        console.log(typeof(num));
+
+        var number=20.5678;
+        console.log(number.toPrecision(3));
+
+       
+        var lastName=" Anisul";
+        var firstName=" Islam";
+        var fullName= lastName + firstName;
+        document.write(fullName);
+       
+        document.write(fullName + " is my name.");
+      
+        
+
+    </script>
+    
+
 </body>
 </html>
