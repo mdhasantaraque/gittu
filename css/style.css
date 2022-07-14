@@ -1,21 +1,19 @@
-nav ul{
-    display: flex;   
+nav>ul{
+    display:flex;
 }
-nav li:hover{
-    background-color: rgb(95, 205, 205);
-    color:white
-}
-nav>ul>li{
+nav li{
     list-style: none;
-    margin-left: 100px;
-    padding: 0;
-    
+    margin-right: 20px;
+    padding: 0 10px;
+  }
+nav li:hover{
+    background-color: grey;
 }
-a{
+nav li a{
     text-decoration: none;
-    font-size: 20px;
     color: black;
-    
+    font-size: 20px;
+     
 }
 .dropdown{
     display: none;
@@ -23,10 +21,11 @@ a{
     background-color: aquamarine;
     padding: 0;
 }
-nav>ul>li:hover>ul{
-    display: block;
-}
 .dropdown li{
-    padding: 0;
     margin: 0;
+    padding: 0 5px;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
 }
